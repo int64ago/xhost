@@ -1,0 +1,23 @@
+{
+  "name": "xhost",
+  "version": "0.0.1",
+  "description": "HostAdmin implementation in Node CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/int64ago/xhost.git"
+  },
+  "keywords": [
+    "hosts",
+    "hosts-manage"
+  ],
+  "author": "Cody Chan <int64ago@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/int64ago/xhost/issues"
+  },
+  "homepage": "https://github.com/int64ago/xhost#readme"
+}
