@@ -9,3 +9,43 @@
 [download-url]: https://npmjs.org/package/xhost
 
 [HostAdmin](https://addons.mozilla.org/en-US/firefox/addon/hostadmin/) implementation in Node CLI
+
+*Tips: ONLY test on Linux*
+
+## Usage
+
+ - [Fix permissions](https://code.google.com/archive/p/fire-hostadmin/wikis/GAIN_HOSTS_WRITE_PERM.wiki)
+ - Edit `hosts` based on [Group syntax](#group-syntax)
+ - `npm i -g xhost`
+ - `xhost`
+
+## Screenshot
+
+![](https://cdn.int64ago.org/m4vq42fj.gif)
+
+## Group syntax
+
+```bash
+#==== GROUPNAME
+[...]
+#====
+```
+
+for example:
+```bash
+#==== Project 1
+#127.0.0.1       localhost1
+127.0.0.1       localhost2
+127.0.0.1       localhost3
+#====
+
+#==== Project 2
+#127.0.0.1       localhost1
+#127.0.0.1       localhost2
+#127.0.0.1       localhost3
+#====
+```
+
+## License
+
+MIT
