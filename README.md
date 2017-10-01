@@ -10,7 +10,7 @@
 
 [HostAdmin](https://addons.mozilla.org/en-US/firefox/addon/hostadmin/) implementation in Node CLI
 
-*Tips: ONLY test on Linux*
+*Tips: ONLY test on Node v8+*
 
 ## Usage
 
