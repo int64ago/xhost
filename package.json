@@ -1,9 +1,10 @@
 {
   "name": "xhost",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HostAdmin implementation in Node CLI",
   "bin": {
-    "xhost": "cli.js"
+    "xhost": "cli.js",
+    "vhost": "cli.js"
   },
   "repository": {
     "type": "git",
